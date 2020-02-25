@@ -1,0 +1,7 @@
+[25-Mar-2016 17:40:09 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'JavaScript' (T_STRING), expecting ',' or ';' in /home/ricohzon/public_html/sendbymail.php on line 35
+[25-Mar-2016 17:40:28 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'JavaScript' (T_STRING), expecting ',' or ';' in /home/ricohzon/public_html/sendbymail.php on line 35
+[29-Mar-2016 16:53:10 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'JavaScript' (T_STRING), expecting ',' or ';' in /home/ricohzon/public_html/sendbymail.php on line 35
+[11-Apr-2016 21:36:45 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'JavaScript' (T_STRING), expecting ',' or ';' in /home/ricohzon/public_html/sendbymail.php on line 35
+[10-Jul-2016 20:16:26 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'JavaScript' (T_STRING), expecting ',' or ';' in /home/ricohzon/public_html/sendbymail.php on line 35
+[10-Jul-2016 20:25:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'JavaScript' (T_STRING), expecting ',' or ';' in /home/ricohzon/public_html/sendbymail.php on line 36
+[10-Jul-2016 23:27:19 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}' in /home/ricohzon/public_html/sendbymail.php on line 27

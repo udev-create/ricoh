@@ -1,0 +1,98 @@
+#submenu{
+    position: absolute;
+   top:30%;
+   right:30%;
+}
+
+#boton_cerrar{
+   position: absolute;
+   top:3px;
+   right:3px;
+   background: #b61717;     
+}
+
+#cotizar{
+    position:absolute;
+    top:80%;
+    right:40%;
+}
+.overlay{
+     display: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #000;
+     z-index:1001;
+     opacity:.75;
+    filter: alpha(opacity=75);
+     
+
+   
+}
+
+.modal {
+     display: none;
+     position: absolute;
+     top: 25%;
+     left: 25%;
+     width: 50%;
+     height: 50%;
+     padding: 16px;
+     background: #000;
+     color: #333;
+     z-index:1002;
+     overflow: auto;
+}
+
+ul{
+    overflow: hidden;
+   flaot:left;
+   display:inline;
+}
+
+
+#adquirir{
+    position:absolute;
+    text-align: center;
+}
+
+
+
+#for_1{
+    width: 400px;
+}
+h1{
+    color:#ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+#formulario{
+    color:#FFFF33;
+}
+#formulario.td{
+     width:30px; 
+}
+
+#img_completa{
+position: top;
+}
+
+
+#menu{
+    display:block;
+    background: #000;
+    color:#ffffff;
+}
+
+#consumibles{
+   position: absolute;
+   top:50%;
+   left:10%;
+}
+
+#consumibles_tabla{
+      border-collapse: separate;
+  border-spacing:  30px;
+}

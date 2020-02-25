@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+}
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.gr{
+    padding-top: 1%;
+    padding-bottom: 0%;
+    background-color: white;
+}
+.text{
+    text-align: center;
+    font-family: ArimaMadurai-Regular;
+    font-size: 160%;
+    
+}
+.btn{
+    width: 15%;
+    height: 50px;
+}
+.scsf{
+    text-align: center;
+}
+.scs{
+    text-align: center;
+    width: 10%;
+    height: 110px;
+}
+.lr {
+	margin-left: 2%;
+	width: 21%;
+	height: auto;
+}
+.lr2 {
+	font-family: arial;
+	font-size: 165%;
+	margin-top: -8%;
+	margin-bottom: 4%;
+}
+
+.lr3 {
+	font-family: ArimaMadurai-Regular;
+	font-size: 120%;
+	margin-left: 75%;
+	margin-top: -2%;
+	margin-bottom: -2%;
+}
+.logo_ricoh {
+	width: 100%;
+	height: auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #FFB300;
+    font-size: 110%;
+    color: #FFB300;
+}
+.imgcopo{
+    width: 10%;
+    margin-left: 21%;
+    margin-bottom: 12%;
+    margin-top: 5%;
+}
+.column .impresora {
+	width: 35%;
+	position: absolute;
+	margin-top: 8%;
+	margin-left: -25%;
+	height: auto;
+}
+.column .rm {
+	font-size: 330%;
+	font-family: arial;
+	margin-left: 55%;
+	margin-top: -16%;
+}
+.column .l {
+	font-size: 130%;
+	font-family: arial;
+	margin-left: 50%;
+	margin-top: 2%;
+}
+.column .c {
+	font-size: 130%;
+	font-family: arial;
+	margin-left: 50%;
+	margin-top: 2%;
+}
+.column .c2 {
+	font-size: 170%;
+	font-family: arial;
+	margin-left: 50%;
+	margin-top: 2%;
+}
+.column .c2 ul{
+	list-style-image: url("../imagenes/punto.png"); 
+}
+.column .fe {
+	margin-left: 5%;
+    font-family: ArimaMadurai-Medium;
+    font-size: 28px;
+}
+.fe2{
+    font-family: arial;
+    font-size: 18px;
+}
+.column .boton1, .boton2 {
+	margin-left: 56%;
+	margin-top: -2%;
+}
+.column .boton1 a img, .boton2 a img{
+	width: 53%;
+	height: auto;
+}
+.column .grn{
+	margin-left: 8%;
+	font-family: arial;
+	font-size: 140%;
+	margin-top: -5%;
+}
+.column .grn img{
+	width: 2%;
+	height: auto;
+}
+.footer .contact {
+	font-family: arial;
+	font-size: 400%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+@media screen and (max-width:630px) {
+    .column .rm {
+	    font-family: arial;
+	    margin-left: 25%;
+	    margin-top: -16%;
+    }
+    .lr{
+        margin-left: 40%;
+    }
+    .lr2{
+        margin-top: 1%;
+    }
+    .lr3{
+        margin-left: -2%;
+    }
+    .footer .contact{
+        font-size: 40px;
+    }
+    .column .rm {
+	    font-size: 30px;
+        margin-top: -30%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .column .imgcopo{
+        margin-top: 16%;
+        margin-left: 50%;
+    }
+    .column .impresora {
+        width: 35%;
+        position: absolute;
+        margin-top: 23%;
+        margin-left: -26%;
+    }
+    .column .l {
+        margin-top: 50%;
+	    font-size: 130%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .column .c {
+	    font-size: 140%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+	    margin-top: 2%;
+    }
+    .column .c2 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 100%;
+    }
+    .column .boton1, .boton2 {
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+    .column .fe {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-family: ArimaMadurai-Medium;
+        font-size: 28px;
+        text-align: center;
+    }
+    .fe2{
+        font-family: arial;
+        font-size: 18px;
+    }
+    .column .grn{
+        margin-left: 18%;
+        font-size: 150%;
+        margin-top: 1%;
+    }
+    .scs{
+        text-align: center;
+        width: 25%;
+        height: 100px;
+    }
+    .btn{
+        width: 35%;
+        height: 50px;
+    }
+}
+.footer #map {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+.footer .envi {
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	font-family: arial;
+	font-size: 200%;
+}
+.footer .bottom {
+	overflow: hidden;
+    background-color: #FFB300;
+	font-size: 140%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+.footer .bottom .b, .bo {
+	margin-left: 5%;
+}
+.footer .bottom .b {
+	font-family: ArimaMadurai-Bold;
+}
+.footer .bottom .bo {
+	font-family: arial;
+}

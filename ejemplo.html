@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      
+<div id="miVentana" style="position: fixed; width: 350px; height: 190px; top: 0; left: 0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; border: #333333 3px solid; background-color: #FAFAFA; color: #000000; display:none;">
+    
+ajsdasdhjfhasbfnbhasbdnafhaswsdashfavsdh
+
+<input type="button" onclick="ocultarVentana()">
+</div> 
+
+        <input type="submit" onclick="mostrarVentana()">
+<script>
+    function mostrarVentana()
+{
+    var ventana = document.getElementById('miVentana');
+    ventana.style.marginTop = "100px";
+    ventana.style.left = ((document.body.clientWidth-350) / 2) +  "px";
+    ventana.style.display = 'block';
+}
+
+function ocultarVentana()
+{
+    var ventana = document.getElementById('miVentana');
+    ventana.style.display = 'none';
+}
+</script> 
+    </body>
+</html>

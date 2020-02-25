@@ -1,0 +1,111 @@
+.descuento{
+    width: 100%;
+}
+.descuento img{
+    width: 100%;
+}
+    .quienes_somos{
+    position:relative;
+    width: 100%;
+    }
+    
+    .quienes_somos img{
+     width: 100%;
+    overflow:hidden;
+    }
+    
+
+#myForm{
+    padding-top:2%;
+    padding-left:3%;
+    font-family:   Century Gothic ;
+ font-size: 14px;
+ color:#000;
+    height: auto;
+    width: auto;
+    background: #e7e7e7;
+}
+
+input{
+    
+    border-bottom: none;
+    background:#cccccc;
+ width: 65%;
+ margin: 5px 0 10px 0;
+ color: #000;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#000;
+}
+textArea{
+    color: #000;
+    background:#cccccc;
+ width: 64%;
+}
+
+.boton_cotizar{
+    background:#ff0000;
+    border-bottom-color:#ff0000;
+    border:0px;
+    width: 70px;
+    height: 30px;
+    font-family:   Century Gothic;
+    position:relative;
+    left:35%;
+
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+ 
+ 
+header {
+	width:100%;
+}
+
+ 
+
+
+    
+    
+    body {
+  margin:0;
+  padding:0;
+}
+    
+    
+	header nav {
+		width:45%;
+		height:100%;
+		float:left;
+		margin:0;
+		position: fixed;
+                display:block;
+                background-color:#053c5a;
+
+	}
+ 
+	header nav ul li{
+            font-size: 8px;
+            padding: 5px;
+		display:block;
+		float:none;
+		border-bottom:1px solid white;
+                text-decoration: none;
+	}
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        hader nav ul,li:hover,a:hover{
+            background: #1e78a9;            
+        }
+       
+.imagen_top img{
+width: 100%;
+        }
+        
+
+

@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+#logo_facebook{
+    position:absolute;
+    top:35%;
+    width: 20%;
+    height: 10%;
+    border: 2px #000;
+    overflow: hidden;
+}
+
+#logo_facebook img{
+    width: auto;
+    height:auto;
+}
+
+#img_completa{
+width: 100%;
+z-index: 1;
+border:none;
+}
+
+#img_completa img{
+width:100%;
+border:none;
+}
+
+
+
+
+nav ul{   
+margin:0px; 
+    padding:0px; 
+    list-style-type: none;
+    
+}
+
+nav li{
+    
+     display: inline-block;
+    padding: 3px 10px;
+    color:#ffffff;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color:#CC9933;
+}
+
+nav a{
+    text-decoration: none;
+    color:#ffffff;
+}
+nav a:link{
+    text-decoration: none;
+}
+
+nav{
+    
+    display:block;
+    position:absolute;
+    width: 100%;
+    background: #000;   
+    font-family:   Century Gothic;
+    font-size: 13px;
+    
+}
+
+
+.contenedor_2{
+    display:relative;
+        text-align: center;
+    margin: auto;
+    width: 60%;
+    overflow:hidden;
+}
+
+.contenedor_2 img{
+    display:relative;
+    padding:1px;
+     width: 100%;
+     height: auto;
+
+}
+
+
+.contenedor_2 ul{
+    display:flex;
+    padding: 0;
+    
+}
+
+.contenedor_2 li{
+    list-style: none;
+    width: 100%;
+
+        
+}
+
+

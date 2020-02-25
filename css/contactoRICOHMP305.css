@@ -1,0 +1,116 @@
+.form_titulo{
+        font-family:   Century Gothic;
+        color:red;
+        font-size: 24px;
+}
+
+.myForm{
+    width: 100%;
+    height: 100%;
+    font-family:   Century Gothic;
+    
+    
+}
+
+
+
+.boton_cotizar{
+    left:27%;
+    position:absolute;
+    font-family:   Century Gothic;
+     
+     
+}
+
+h1{
+    color:red;
+    font-family:   Century Gothic;
+    text-align: center;
+}
+
+
+
+.posicion{
+    display:relative;
+    text-align: center;
+    margin: auto;
+    width: 69%;
+    overflow:hidden;
+}
+
+.posicion ul{
+  display:flex;
+    padding: 0;
+}
+
+.posicion li.dos{
+    list-style: none;
+    width: 100%;
+    background: #666666;
+    color:#ffffff;
+    font-size: 30px;
+}
+
+.sub_menu{
+display:relative;
+        text-align: center;
+    margin: auto;
+    width: 73%;
+    overflow:hidden;    
+}
+
+.sub_menu img{
+    display:relative;
+    padding:1px;
+     width: 100%;
+     height: auto;
+}
+
+.sub_menu ul{
+    display:flex
+}
+
+.sub_menu li{
+    list-style: none;
+    width: 100%;
+    margin: 0px 34px 0px 0px;
+    
+}
+
+/*  AQUI COMIENZA EL FORMULARIO SIN EFECTO */
+
+
+.contactanos{
+    width: 60%;
+    position: relative;
+    float:right;
+    margin:0;
+}
+
+.contactanos img{
+    width: 100%;
+    height: 100%;
+}
+
+.modal{
+    margin-left: 20%;
+    width: 70%;
+    
+    
+}
+
+.modal ul{
+    display:flex;
+    padding: 0;
+    float:left;
+}
+
+.modal  li{
+    text-decoration: none;
+    list-style: none;
+    float:left;
+}
+
+
+    
+

@@ -1,0 +1,117 @@
+/********************\
+  $Reset ☰
+\********************/
+
+
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.3);
+	background-color: #F5F5F5;
+}
+
+
+::-webkit-scrollbar
+{
+	width: 2px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+
+
+
+
+* {
+  box-sizing:border-box;
+}
+body {
+  margin:0;
+  padding:0; 
+}
+a {
+  text-decoration:none;
+}
+/********************\
+  $Layout ☰
+\********************/
+
+/*Damos estilos al menú*/
+.nav {
+  position:absolute;
+  width:200px;
+  height:100vh;
+  top:0;
+  left:-220px; /*Ocultamos el menú en la parte izquierda para que no se vea a menos que pulsemos sobre la hamburguesa*/
+  padding-top:47px;
+  background-color:#000;
+  transition:all .5s ease; /*Damos a la caja del menú una transición para que tenga un desplazamiento suave*/
+}
+   /*Estilos de los li del menú*/
+  .nav ul li {
+     display:block;
+     width:96%;
+     margin:0 auto;
+     line-height:2;
+     position:relative; /*Le damos una posición relativa para posteriormente añadirle el triangulo que indica que se está en la página actual del menú*/
+     border-bottom:.5px solid rgba(59, 62, 61, 1);
+     border-top:.5px solid rgba(59, 62, 61, 1);
+     font-family: 'Lato', sans-serif;
+     text-align:center;
+     
+   }
+       /*Damos colocamos el triangulo negro a la pestaña del menú dónde nos encontramos actualmente*/
+       
+  /*Estos son los estilos de la hamburguesa del menú que abre y cierra el mismo*/
+  .menu-toogle {
+    position:absolute; /*Lo posicionamos absolutamente para poder darle una posición y poder moverlo según el menú esté abierto o cerrado*/
+    width: 35px;
+    line-height:1.1;
+    text-align:center;
+    top:6.5px; /*Le damos una posición top y left en donde queramos que se encuentre la hamburguesa del menú*/
+    left: 8px; 
+    border-radius:3px;
+    background-color: #142b25;
+    
+    transition: all .5s ease; /*Añadimos una transición para que realice un desplazamineto suave*/
+    z-index:10;
+  }
+    /*Añadimos la haburguesa y le damos unos estilos*/
+    .menu-toogle::before {
+      content:"☰";
+      font-size:32px;
+      color:white;
+    }
+
+/* Le damos unos estilos al contenedor principal*/
+.main-w {
+  width:100%;
+  height:100%;
+  transition: all .5s ease;
+}   
+    .checkbox {
+      display:none; /*Ocultamos el checkbox pues no nos interesa que se vea*/
+    }
+    .checkbox:checked ~ .nav {
+      left:0px; /*Le quitamos el left negativo para que el menú vuelva a su posición original*/
+      position:fixed; /* Fijamos el menú lateral para que se desplace cuando hagamos scroll*/
+    }
+    .checkbox:checked ~ .main-w {
+      margin-left:200px; /*Cuando el checkbox asigna un margen al contenedor principal para que se desplace junto con el menú*/
+    }
+    .checkbox:checked ~ .menu-toogle { 
+      left:208px;
+      position:fixed; /*Fijamos la hamburgues para que se desplace junto con el menú*/
+    }
+
+    /*                                      */
+.imagen_top img{
+width: 100%;
+        }
+
+        
+    

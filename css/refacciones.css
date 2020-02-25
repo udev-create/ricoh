@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+
+
+.articulos{
+          display:relative;
+        text-align: center;
+    margin: auto;
+    width: 66%;
+    overflow:hidden;
+    margin: auto;
+    
+ 
+}
+
+.articulos img{
+    display:relative;
+     width: 100%;
+     height: 100%;
+    
+}
+
+.banner_promociones{
+ display:relative;
+        text-align: center;
+    margin: auto;
+    width: 66%;
+    overflow:hidden;
+}
+
+.banner_promociones img{
+    display:relative;
+     width: 100%;
+     height: auto;
+
+}
+
+.banner_promociones li{
+   list-style: none;
+    width: 100%;
+}
+
+.banner_promociones ul{
+    display:flex;
+    padding: 0;
+    
+}

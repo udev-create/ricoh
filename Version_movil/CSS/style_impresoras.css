@@ -1,0 +1,158 @@
+.descuento{
+    width: 100%;
+}
+.descuento img{
+    width: 100%;
+}
+
+.co_adquirir{
+    width: 100%;
+}
+.co_adquirir img{
+    width: 100%;
+}
+
+
+#contenedor a.close{
+	background-color: #C70039;
+	border-radius: 5px;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	position: absolute;
+	right: 5px;
+	top:5px;
+        font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	width: 25px;
+        font-family:   Century Gothic;
+}
+
+
+#contenedor #myForm{
+font-family:   Century Gothic;
+font-size: 13px;
+color: #ffff00;
+}
+
+#contenedor input{
+    width: 100%;
+}
+#contenedor textArea{
+    width: 100%;
+}
+#contenedor .boton_cotizar{   
+    text-align: center;
+     background:#ff0000;
+    border-bottom-color:#ff0000;
+    border:0px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    left:40%;
+    font-family:   Century Gothic;
+font-size: 10px;
+}
+
+#contenedor .myForm_title{
+    font-size: 16px;
+    color:#ffffff;
+    position:relative;
+    text-align: center;
+    font-family:   Century Gothic;
+}
+
+    .copiadoras{
+     float:left;
+    width: 50%;
+    
+    padding-right: 1%;
+     padding-left: 1%;
+    }
+    .copiadoras img{
+        width: 100%;
+    }
+    
+     .copiadoras2 img{
+        width: 100%;
+    }
+      .copiadoras2{
+          padding-right: 1%;
+          padding-left: 1%;
+    float:left;
+    width: 50%;
+    
+    }
+    
+  
+    
+    .multifuncional{    
+    position:relative;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+    }
+    
+    .multifuncional img{
+    display:relative;
+    padding:1px;
+     width: 80%;
+
+    
+    }
+    
+    
+    
+    .llamanos{
+
+    width: 100%;
+    text-align: center;
+    }
+    
+    .llamanos img{
+     width: 50%;
+    }
+    
+    
+    body {
+  margin:0;
+  padding:0;
+}
+    
+    
+	header nav {
+		width:45%;
+		height:100%;
+		float:left;
+		margin:0;
+		position: fixed;
+                display:block;
+                background-color:#053c5a;
+
+	}
+ 
+	header nav ul li{
+            font-size: 8px;
+            padding: 5px;
+		display:block;
+		float:none;
+		border-bottom:1px solid white;
+                text-decoration: none;
+	}
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        hader nav ul,li:hover,a:hover{
+            background: #1e78a9;            
+        }
+       
+.imagen_top img{
+
+width: 100%;
+        }
+
+
